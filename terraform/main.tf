@@ -76,7 +76,7 @@ module "retail_app_eks" {
   kms_key_deletion_window_in_days = 7
   
   # Cluster logging (optional - can be expensive)
-  cluster_enabled_log_types = []
+  #cluster_enabled_log_types = []
 
   tags = local.common_tags
 }
