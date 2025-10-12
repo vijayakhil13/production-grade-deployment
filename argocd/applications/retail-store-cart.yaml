@@ -9,7 +9,7 @@ spec:
   project: retail-store
   source: 
     repoURL: https://github.com/vijayakhil13/production-grade-deployment
-    targetRevision: main
+    targetRevision: gitops
     path: src/cart/chart
     helm:
       valueFiles:
